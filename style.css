@@ -20,7 +20,7 @@ body {
     margin-right: auto;
 }
 
-/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,6 @@ body {
     margin-left: 14px;
 }
 
-/* Navigation */
 .nav {
     display: flex;
     align-items: center;
@@ -108,7 +107,6 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Aside */
 .aside {
     display: flex;
     justify-content: space-between;
@@ -151,7 +149,7 @@ body {
     padding: 16px;
 }
 
-/* Footer */
+
 .footer {
     display: flex;
     align-items: center;
