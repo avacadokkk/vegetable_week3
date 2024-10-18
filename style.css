@@ -10,16 +10,9 @@ html {
 }
 
 body {
-    font-family: 'Noto Sans TC';
+    font-family: 'Noto Sans TC',sans-serif !important;
     margin: 0;
 }
-
-.container {
-    max-width: 1120px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 .header {
     display: flex;
@@ -32,7 +25,7 @@ body {
     margin-top: 36px;
 }
 
-.header-left {
+.h1 {
     width: 235px;
     height: 60px;
     font-weight: 900;
@@ -41,7 +34,7 @@ body {
     color: #778A50;
 }
 
-.header-right {
+.h2 {
     display: flex;
     align-items: center;
     height: 24px;
@@ -49,6 +42,11 @@ body {
     font-size: 14px;
     font-weight: 700;
     line-height: 19.07px;
+}
+.container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .instagram {
@@ -112,11 +110,11 @@ body {
     justify-content: space-between;
 }
 
-.aside-left, .aside-right {
+.asideL, .asideR {
     width: 528px;
 }
 
-.aside-left-bg, .aside-right-bg {
+.asideLbg, .asideRbg {
     background-color: #778A50;
     height: 45px;
     display: flex;
@@ -126,7 +124,7 @@ body {
     margin-bottom: 16px;
 }
 
-.aside-left-header, .aside-right-header {
+.asideLhead, .asideRhead {
     color: #EDF2C5;
     margin-left: 30px;
     font-weight: 900;
@@ -134,12 +132,12 @@ body {
     line-height: 24px;
 }
 
-.aside-left-content {
+.asideLcontent {
     display: flex;
     justify-content: space-between;
 }
 
-.aside-right-content {
+.asideRcontent {
     background-color: #F7FBDA;
     color: #7D7D7D;
     height: 140px;
