@@ -93,12 +93,6 @@ body {
     line-height: 44px;
 }
 
-.nav a:hover {
-    background-color: #F7FBDA;
-    color: #778A50;
-    border-radius: 0px;
-    transition: background-color 0.3s, color 0.3s;
-}
 
 .aside {
     display: flex;
